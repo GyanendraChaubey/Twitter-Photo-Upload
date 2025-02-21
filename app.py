@@ -69,10 +69,10 @@ def index():
 
 def publish_images_to_x(image_filenames):
     # NOTE: Replace these placeholders with your actual Twitter API credentials.
-    consumer_key = 'jakyXsWPjTedAppSULmx1v3pK'
-    consumer_secret = 'LLIWxX2us2CqU2Mc6VJ70huJTeSIvtDq455TJl2Cav3Wcunb3z'
-    access_token = '754880640382828544-w2LAE0KG151ivglsWLR3H4hImtzlZlt'
-    access_token_secret = 'AqPE7Fe3wSnHr5IyR4x5VLzDxf9RyhkIM1TrT7BGx3kVU'
+    consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    access_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    access_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
     # Set up Tweepy API authentication
     auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
